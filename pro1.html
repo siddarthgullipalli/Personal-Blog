@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>PERSONAL BLOG</title>
+	<link rel="stylesheet" href="style/pro1.css">
+	<script src="inter/pro1.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Roboto:wght@100&display=swap" rel="stylesheet">
+<!--     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,500&display=swap" rel="stylesheet">
+</head>
+<body onload ="message()">
+	<div >
+	    <header>
+		    <h1>WELCOME TO MY PERSONAL BLOG</h1>
+		    <h3>By - Siddarth Gullipalli</h3>
+	    </header>
+	    <nav>
+		    <ul class="left">
+			    <li class="l"><a href="#into" class="navi">INTRO</a></li>
+			    <li class="l"><a href="https://drive.google.com/drive/folders/1L_Qdiw6Iq_pH4QhSdMMlbr9yypD_4x25?usp=sharing" class="navi">COURSERA</a></li>
+			    <li class="l"><a href="#C1" class="navi">G&A</a></li>
+
+		    </ul>
+		    <ul class = "right">
+			    <li class="r">
+				    <a href="https://open.spotify.com/playlist/76LpyuQtDEBekszUIirf4B?si=2b9d43232b1245d8">
+                    <img src="https://www.edmtunes.com/wp-content/uploads/2017/08/1200x630bb.jpg" alt="spotify" style="width:30px;height:30px;">
+                    </a>
+			    </li>
+			    <li class="r">
+				    <a href="https://www.linkedin.com/in/venkata-siddarth-gullipalli-b9a211200">
+					    <img src="https://i.pcmag.com/imagery/reviews/05QJZocZxCTxBBzuKYOJMWZ-5.fit_scale.size_1028x578.v_1569472374.jpg" alt="linkedin" style="width:55px;height:30px;">
+				    </a>
+			    </li>
+			    <li class="r">
+			    	<a href="https://instagram.com/siddarthgullipalli?utm_medium=copy_link">
+			    		<img src="https://th.bing.com/th/id/R.c5ddecc677d10dd4ae1a9216bf75dff7?rik=6nNaZIUE7nrPJg&riu=http%3a%2f%2fpluspng.com%2fimg-png%2finstagram-png-instagram-png-icon-1024.png&ehk=g%2ffN9f%2bnGvDVPmZQMVTHWRh5%2bvzaZK5iHv1a%2bcmGVkg%3d&risl=&pid=ImgRaw&r=0" style="width:30px;height:30px;">
+			    	</a>
+			    	
+			    </li>
+			    <li class="r">
+			    	<a href="https://github.com/siddarthgullipalli">
+			    		<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" style="width:35px;height:35px;">
+			    	</a>
+			    </li>
+		    </ul>
+	    </nav>
+	    <div class="plx-image1">
+	    	<p id="name"> hello</p>
+	    	
+	    </div >
+	    <div class="text2">
+	    	<h3 class="head2" id ="into">Info</h3>
+	    	<div class="paragraph">
+	    		Hey..!! This is Siddarth Gullipalli currently pursuing my bachelors in technology , Computer Science Engineering in GITAM University , Visakhapatnam. I am a Tech enthusiast and loves thinking out of box. I am a passionate and a focused individual who enjoys breaking a problem into small tasks , developing logic and solving them. This passion in me made me explore  myriad technologies like Python , HTML , CSS , Java Script , Bootsratp and I am currently learning Django . I am always inquisitive towards learning , developing and implementing new ideas and technologies. 
+	    	</div>
+	    <div class="plx-image2">
+	    	<p> G & A</p>
+	    </div>
+	    <div class="text2">
+	    	<h3 class="head2" id ="C1">Goals and Achievements</h3>
+	    	<div class="paragraph">
+	    		I actively participated in hackathons , quizzes conducted by GITAM University . I am also an athlete from my school days . Being into sports made me understand the importance of team work and built a positive competitive spirit in me . I love to be a part of an  environment where I can learn from my peers and contribute to my younger generations by guiding them and imparting the knowledge and skills I have acquired .
+	    	</div>
+	    	<div class="feed">
+	    		<h3 class="head2">Feedback</h3>
+	    		<form>
+	    			<fieldset>
+	    				<legend>How do you like my website</legend>
+	    			<br/>
+	    			<label for="good" class="xyz"><input type="radio" name="quality" value="Great" id = "good" value="yes" onchange="goodd()">Great<br/></label>
+	    			<label for="avg" class="xyz"><input type="radio" name="quality" value="Average" id = "avg" value="yes" onchange="avgg()">Average<br/></label>
+	    			<label for="bad" class="xyz"><input type="radio" name="quality" value="Bad" id = "bad" value="yes" onchange="badd()">Bad<br/></label>
+	    			</fieldset>
+	    			
+	    		</form>
+	    	</div>
+	    	<!-- <h3 id="res">Response</h3> -->
+	    	<div id = "go">
+	    		
+	    		<p class="fedres">Thankyou! for the response</p>
+	    		
+	    	</div>
+	    	<div id="av">
+	    		<form >
+	    			<label for='a' class="abr">Please provide feedback where I can Improve:</label> 
+	    				<br/>
+	    				<input type="text" name="feedback" id = 'a' class="pqr">
+	    				<br/>
+	    				<button type="button" onclick="printaa()">submit</button>
+	    				<br/>
+	    				<br/>
+	    				<p id="printa" >Thankyou! for the response</p>
+	    		</form>
+	    	</div>
+	    	<div id="ba">
+	    		<form>
+	    			<label for="b" class="abr">I really apologiese for the inconvenience  please do provide the information where I   can improve the website for a better user experience:</label>
+	    				<br/>
+	    				<input type="text" name="feedback" id="b" class="pqr">
+	    				<br/>
+	    			<button type="button" onclick="printbb()">submit</button>
+	    			<br/>
+	    			<br/>
+	    			<br/>
+	    			<p id="printb" >Thankyou! for the response</p>
+	    		</form>
+	    		
+	    	</div>
+	    	<footer> The End</footer>
+	    </div>
+	   
+	</div>
+
+</body>
+</html>
+
+
+
+	
